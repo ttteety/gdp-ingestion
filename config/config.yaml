@@ -1,0 +1,12 @@
+dev:
+  database:
+    host: localhost
+    user: gdp_user
+    password: password123
+    port: 5432
+    db_name: gdp_db
+  gdp_endpoint:
+    url: "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.MKTP.CD"
+    schema_name: raw_db
+    table_name: worldbank_gdp
+      
